@@ -1,4 +1,4 @@
-baseurl: http://renco.github.io/
+baseurl: http://renco.github.io
 markdown: kramdown
 permalink: pretty
 pygments: true
