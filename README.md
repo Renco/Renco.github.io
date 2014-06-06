@@ -7,5 +7,6 @@ Following files, directories and their contents are copyright Roger Chapman. You
 
 * _posts/
 * images
+* assets
 
 All other files and directories are licensed under the [MIT](http://www.opensource.org/licenses/mit-license.php) unless explicitly stated.
