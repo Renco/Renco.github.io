@@ -1,4 +1,4 @@
-baseurl: /Renco_Blog
+baseurl: /
 markdown: kramdown
 permalink: pretty
 pygments: true
