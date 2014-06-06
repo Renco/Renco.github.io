@@ -1,0 +1,5 @@
+baseurl: /Renco_Blog
+markdown: kramdown
+permalink: pretty
+pygments: true
+exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
