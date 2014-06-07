@@ -22,8 +22,8 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   ##twitter:
   ##facebook:
-  github:       "https://github.com/Renco"
-  linkedin:     "http://www.linkedin.com/in/rencochy"
+  github:       Renco
+  linkedin:     rencochy
   ##instagram:
   ##tumblr:
   # For Google Authorship https://plus.google.com/authorship
@@ -38,9 +38,9 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
+  - title: 关于
     url: /about
-  - title: Articles
+  - title: 文章
     url: /articles
   - title: 我的豆瓣
     url: http://www.douban.com/people/renco/
@@ -56,5 +56,5 @@ markdown:    kramdown
 permalink: pretty
 
 ##多说
-duoshuo_comments: true
-duoshuo_short_name: renco
+#duoshuo_comments: true
+#duoshuo_short_name: renco
