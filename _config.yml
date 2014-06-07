@@ -8,7 +8,7 @@ title:            陈皇宇的个人博客
 description:      陈皇宇在这里记录他的见闻和思考
 logo:             123.jpg
 ##DISQUS##disqus_shortname: renco
-search:           true
+##search:           true
 # Your site's domain goes here. When working locally use localhost server leave blank
 # PS. If you set this wrong stylesheets and scripts won't load and most links will break.
 # PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
@@ -24,6 +24,8 @@ owner:
   ##facebook:
   github:       Renco
   linkedin:     rencochy
+  douban:       http://www.douban.com/people/renco/
+  weibo:        http://www.weibo.com/rencoxf4ever
   ##instagram:
   ##tumblr:
   # For Google Authorship https://plus.google.com/authorship
@@ -38,9 +40,9 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
+  - title: 关于
     url: /about
-  - title: Articles
+  - title: 文章
     url: /articles
   - #title: 我的豆瓣
     #url: http://www.douban.com/people/renco/
