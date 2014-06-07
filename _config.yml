@@ -1,4 +1,4 @@
-baseurl: http://renco.github.io
+#baseurl: http://renco.github.io
 #markdown: kramdown
 exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
 
@@ -55,12 +55,6 @@ markdown:    kramdown
 #permalink:   /:categories/:title/
 permalink: pretty
 
-
-
-
-
-#####开始弄多说
- comments :
-    provider : duoshuo
-    duoshuo : 
-      short_name : havee
+##多说
+duoshuo_comments: true
+duoshuo_short_name: renco
