@@ -7,7 +7,7 @@ exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
 title:            陈皇宇的个人博客
 description:      陈皇宇在这里记录他的见闻和思考
 logo:             123.jpg
-disqus_shortname: renco
+##DISQUS##disqus_shortname: renco
 search:           true
 # Your site's domain goes here. When working locally use localhost server leave blank
 # PS. If you set this wrong stylesheets and scripts won't load and most links will break.
@@ -22,12 +22,12 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   ##twitter:
   ##facebook:
-  github:
-  linkedin:
+  github:       "https://github.com/Renco"
+  linkedin:     "http://www.linkedin.com/in/rencochy"
   ##instagram:
   ##tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/123123123123132123"
+  ##google_plus:    "http://plus.google.com/123123123123132123"
 
 # Analytics and webmaster tools stuff goes here
 ##google_analytics:
@@ -54,3 +54,13 @@ markdown:    kramdown
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 #permalink:   /:categories/:title/
 permalink: pretty
+
+
+
+
+
+#####开始弄多说
+ comments :
+    provider : duoshuo
+    duoshuo : 
+      short_name : havee
