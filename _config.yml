@@ -1,13 +1,13 @@
 baseurl: http://renco.github.io
-markdown: kramdown
+#markdown: kramdown
 exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
 
 
 
-title:            Site Title
-description:      Site description for the metas.
-logo:             site-logo.png
-disqus_shortname: shortname
+title:            陈皇宇的个人博客
+description:      陈皇宇在这里记录他的见闻和思考
+logo:             123.jpg
+disqus_shortname: renco
 search:           true
 # Your site's domain goes here. When working locally use localhost server leave blank
 # PS. If you set this wrong stylesheets and scripts won't load and most links will break.
