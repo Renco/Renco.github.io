@@ -38,12 +38,12 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: 关于
+  - title: About
     url: /about
-  - title: 文章
+  - title: Articles
     url: /articles
-  - title: 我的豆瓣
-    url: http://www.douban.com/people/renco/
+  - #title: 我的豆瓣
+    #url: http://www.douban.com/people/renco/
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
