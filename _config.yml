@@ -47,6 +47,8 @@ links:
     url: /aboutsite
   - title: 文章
     url: /articles
+  - title: 标签
+    url: /tags  
   #- #title: 我的豆瓣
     #url: http://www.douban.com/people/renco/
     external: true
