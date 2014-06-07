@@ -4,11 +4,11 @@ exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
 
 
 
-title:            陈皇宇的个人博客
+title:            陈皇宇的个人网站
 description:      爱折腾，爱思考，寻找爱创造的人
 logo:             123.jpg
 ##DISQUS##disqus_shortname: renco
-##search:           true
+search:           true
 # Your site's domain goes here. When working locally use localhost server leave blank
 # PS. If you set this wrong stylesheets and scripts won't load and most links will break.
 # PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
@@ -47,7 +47,7 @@ links:
     url: /aboutsite
   - title: 文章
     url: /articles
-  - #title: 我的豆瓣
+  #- #title: 我的豆瓣
     #url: http://www.douban.com/people/renco/
     external: true
 
