@@ -4,7 +4,7 @@ title: 第一篇文章
 ---
 
 
-
+这篇文章是用来试验网站的功能的
 
 ##你好世界！！！
 
@@ -13,7 +13,7 @@ title: 第一篇文章
 
 你可以直接 [下载 PDF]({{ site.url }}/assets/mydoc.pdf).
 
-
+行间公式
 
 $$
 W({X_t}) =Max\{ g(X_t),{E}[{e^{ - \int_t^{t + \varepsilon } {{r_s}} ds}}W({X_{t + \varepsilon }})]|{X_{t - }} = x)\}
