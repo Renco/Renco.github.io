@@ -52,17 +52,17 @@ Python也是我学的第一门语言，这门语言的好处就是它的代码�
 
 比如说： 
 
-<% highlight Python%>
+{% highlight Python%}
 
 print "Hello,world!"
 
-<% endhighlight%>
+{% endhighlight%}
 
 你不要跟我说你看不懂这句话,它做的就是它字面的意思：`打印“你好，世界”`
 
 如果是C++呢？那是下面这个样子：
 
-<% highlight C++%>
+{% highlight C++%}
 #include <iostream>
 using namespace std;
 
@@ -71,7 +71,7 @@ int main(){
    cout<<"Hello,world!"<<endl;
    return 0;
 }
-<% endhighlight %>
+{% endhighlight %}
 
 有没有一种想死的感觉？都什么玩意儿？不就是打印一句话么？干嘛搞这么复杂？
 
