@@ -62,7 +62,7 @@ print "Hello,world!"
 
 如果是C++呢？那是下面这个样子：
 
-{% highlight C++%}
+{% highlight C++ linenos%}
 #include <iostream>
 using namespace std;
 
@@ -70,6 +70,7 @@ int main(){
        
    cout<<"Hello,world!"<<endl;
    return 0;
+
 }
 {% endhighlight %}
 
@@ -99,7 +100,7 @@ int main(){
 
 
 ###C
----
+
 学C的好处多多啊。
 
 你们学校要是有计算机系（别说没有，我不信！），他们不教C就是开玩笑。很多学校主要教的是JAVA，不过这个一般是对其他系的，你去上计算机系的课，他们要是不教你C那他们坑爹了……
@@ -133,7 +134,7 @@ C的运行效率很高，基本上操作系统都是用C写的，事实上C最�
 
 ##再来点资源
 ---
-有木有一种拿来玩的语言呢？有的：<a href="http://scratch.mit.edu/" target="_blank">scratch</a>
+有木有一种拿来玩的语言呢？有的：<a href="http://scratch.mit.edu/" target="_blank">Scratch</a>
 
 这是MIT发明的给孩子拿来玩的编程语言，但是什么都不缺，可以先从这个入手。绝对没有嘲笑你智商的意思，我觉得这个语言挺好的，马上就能做出一个动画来有木有。
 
@@ -152,4 +153,4 @@ C的运行效率很高，基本上操作系统都是用C写的，事实上C最�
 
 我觉得就是这些了。
 
-****Have fun !****
+**Have fun !**
