@@ -1,55 +1,47 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-gb">
+<script type="text/javascript"
+ src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>{{ page.title }}</title>
-	<meta name="author" content="Huangyu|Renco Chen" />
-	<link rel=”icon” href=”/favicon.ico” mce_href=”/favicon.ico” type=”image/x-icon”>
-    <link rel=”shortcut icon” href=”/favicon.ico” mce_href=”/favicon.ico” type=”image/x-icon”>
-	<!--<link href="http://feeds.feedburner.com/rogchap" rel="alternate" title="Renco Chen" type="application/atom+xml" />-->
-	<link rel="stylesheet" href="/css/syntax.css" type="text/css" media="all" />
-	<link rel="stylesheet" href="/css/screen.css" type="text/css" media="all" />
-	<link rel="stylesheet" href="/css/tablet.css" type="text/css" media="screen and (min-width:651px) and (max-width: 1024px), screen and (min-device-width: 768px) and (max-device-width: 1024px)" />
-	<link rel="stylesheet" href="/css/mobile.css" type="text/css" media="handheld, screen and (max-width: 650px), screen and (max-device-width: 480px)" />
+{% include head.html %}
 </head>
-<body>
-	<div class="site">
-		<div class="title"><a href="http://renco.github.io">Huangyu|Renco Chen<br/>陈皇宇</a></div>
-		{{ content }}
-		<div class="footer">
-			<div class="contact">
-				<p>
-					Huangyu|Renco Chen 陈皇宇<br/>
-					Graudate Student in Mathematical Finance at Boston University<br/>
-					rencochy@bu.edu<br/>
-					<!--&#114;&#111;&#103;&#99;&#104;&#97;&#112;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;-->
-				</p>
-			</div>
-			<div class="contact">
-				<p>
-					<a href="https://www.linkedin.com/in/rencochy">My LinkedIn</a><br />
-					<a href="http://www.douban.com/people/renco/">我的豆瓣</a><br />
-					<!--<a href="http://linkedin.com/in/rogchap/">linkedin.com/in/rogchap</a>-->
-				</p>
-			</div>
-		 <!--	<div class="rss">
-				<a href="http://feeds.feedburner.com/rogchap">RSS Feed</a>
-			</div> -->
-		</div>
-	</div>
 
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
-        _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-        _gaq.push(['_setAccount', 'UA-4155555-8']);
-        _gaq.push(['_trackPageview']);
+<body id="page">
 
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
+{% include navigation.html %}
+
+<div id="main" role="main">
+  <article class="entry">
+    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" {% if site.logo == null %}style="margin-top:0;"{% endif %}>{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}</h1>{% endif %}
+      </header>
+      <div class="entry-content">
+        {{ content }}
+		
+		
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    {% include footer.html %}
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+{% include scripts.html %}          
+
+
+
+
+
 </body>
-<html>
+</html>

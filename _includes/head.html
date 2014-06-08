@@ -60,13 +60,13 @@
 
 <script language="javascript">
 <!--在新页面打开超链接-->
-function addBlankTargetForLinks () {
-  $('a[href^="http"]').each(function(){
-      $(this).attr('target', '_blank');
-  });
-}
+	function addBlankTargetForLinks () {
+	  $('a[href^="http"]').each(function(){
+		  $(this).attr('target', '_blank');
+	  });
+	}
 
-$(document).bind('DOMNodeInserted', function(event) {
-  addBlankTargetForLinks();
-});
+	$(document).bind('DOMNodeInserted', function(event) {
+	  addBlankTargetForLinks();
+	});
 </script>
