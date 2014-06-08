@@ -45,7 +45,7 @@ links:
     url: /about
   - title: 关于本站
     url: /aboutsite
-  - title: 文章
+  - title: 文章列表
     url: /articles
   - title: 标签
     url: /tags  
