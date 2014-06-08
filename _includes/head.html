@@ -58,7 +58,7 @@
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
 
 
-
+<script language="javascript">
 <!--在新页面打开超链接-->
 function addBlankTargetForLinks () {
   $('a[href^="http"]').each(function(){
@@ -69,3 +69,4 @@ function addBlankTargetForLinks () {
 $(document).bind('DOMNodeInserted', function(event) {
   addBlankTargetForLinks();
 });
+</script>
