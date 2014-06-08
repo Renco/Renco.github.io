@@ -6,7 +6,7 @@ exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
 
 title:            陈皇宇的个人网站
 description:      爱折腾，爱思考，寻找爱创造的人
-logo:             323.jpg
+logo:             423.jpg
 ##DISQUS##disqus_shortname: renco
 search:           true
 # Your site's domain goes here. When working locally use localhost server leave blank
