@@ -3,6 +3,7 @@ layout: post
 title: 我该怎样开始学习编程？
 description: 关于编程入门的博文
 share: true
+category: technical 
 tags: [编程, Python]
 ---
 
